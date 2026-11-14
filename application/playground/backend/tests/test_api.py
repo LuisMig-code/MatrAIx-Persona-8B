@@ -387,6 +387,14 @@ def test_config_options(client):
     assert "dashscope/deepseek-v4-pro" in persona_model_values
     assert "openrouter/z-ai/glm-4.7" in persona_model_values
     assert "openrouter/anthropic/claude-haiku-4.5" in persona_model_values
+    for model in (
+        "openrouter/z-ai/glm-5.3-flash",
+        "openrouter/deepseek/deepseek-v4.1-flash",
+        "openrouter/anthropic/claude-haiku-5.5",
+        "openrouter/openai/gpt-6-luna",
+        "openrouter/google/gemini-3.8-flash",
+    ):
+        assert model in persona_model_values
 
     assert body["defaults"]["engine"] == "gpt-4o-mini"
     assert body["defaults"]["rankerMode"] == "native"

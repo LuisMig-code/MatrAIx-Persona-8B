@@ -69,6 +69,11 @@ def test_options_knob_values_match_allowed(config_manager):
     assert "dashscope/deepseek-v4-pro" in PERSONA_MODEL_OPTIONS
     assert "openrouter/z-ai/glm-4.7" in PERSONA_MODEL_OPTIONS
     assert "openrouter/anthropic/claude-haiku-4.5" in PERSONA_MODEL_OPTIONS
+    assert "openrouter/z-ai/glm-5.3-flash" in PERSONA_MODEL_OPTIONS
+    assert "openrouter/deepseek/deepseek-v4.1-flash" in PERSONA_MODEL_OPTIONS
+    assert "openrouter/anthropic/claude-haiku-5.5" in PERSONA_MODEL_OPTIONS
+    assert "openrouter/openai/gpt-6-luna" in PERSONA_MODEL_OPTIONS
+    assert "openrouter/google/gemini-3.8-flash" in PERSONA_MODEL_OPTIONS
     assert "openai/gpt-5.4" in PERSONA_MODEL_OPTIONS
     assert "openai/gpt-5.5" in PERSONA_MODEL_OPTIONS
     assert "gemini/gemini-2.5-flash" in PERSONA_MODEL_OPTIONS

@@ -163,6 +163,26 @@ PERSONA_MODEL_KNOB_META: Dict[str, Dict[str, str]] = {
         "label": "Claude Haiku 4.5",
         "description": "Anthropic Claude Haiku 4.5 served through OpenRouter.",
     },
+    "openrouter/z-ai/glm-5.3-flash": {
+        "label": "GLM 5.3 Flash · OpenRouter",
+        "description": "Z.ai GLM 5.3 Flash served through OpenRouter; lowest cost.",
+    },
+    "openrouter/deepseek/deepseek-v4.1-flash": {
+        "label": "DeepSeek V4.1 Flash · OpenRouter",
+        "description": "DeepSeek V4.1 Flash served through OpenRouter; low cost.",
+    },
+    "openrouter/anthropic/claude-haiku-5.5": {
+        "label": "Claude Haiku 5.5 · OpenRouter",
+        "description": "Anthropic Claude Haiku 5.5 served through OpenRouter.",
+    },
+    "openrouter/openai/gpt-6-luna": {
+        "label": "GPT-6 Luna · OpenRouter",
+        "description": "OpenAI GPT-6 Luna served through OpenRouter.",
+    },
+    "openrouter/google/gemini-3.8-flash": {
+        "label": "Gemini 3.8 Flash · OpenRouter",
+        "description": "Google Gemini 3.8 Flash served through OpenRouter; higher cost.",
+    },
 }
 
 PERSONA_MODEL_OPTIONS = list(PERSONA_MODEL_KNOB_META.keys())

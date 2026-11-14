@@ -126,7 +126,10 @@ The **persona LLM** is separate from the chat sidecar backend (e.g., `MATRIX_CHA
 - **OpenAI:** `openai/gpt-4o-mini`, `openai/gpt-4o`, etc.
 - **Google Gemini:** `google/gemini-2.5-pro` (with `persona-gemini-cli`)
 - **DashScope (Alibaba):** `dashscope/qwen3.7-max`, `dashscope/deepseek-v4-pro`, etc.
-- **OpenRouter:** `openrouter/z-ai/glm-4.7`, `openrouter/anthropic/claude-haiku-4.5`, etc.
+- **OpenRouter:** `openrouter/z-ai/glm-4.7`, `openrouter/anthropic/claude-haiku-4.5`,
+  `openrouter/z-ai/glm-5.3-flash`, `openrouter/deepseek/deepseek-v4.1-flash`,
+  `openrouter/anthropic/claude-haiku-5.5`, `openrouter/openai/gpt-6-luna`,
+  `openrouter/google/gemini-3.8-flash`, etc.
 
 #### OpenRouter
 

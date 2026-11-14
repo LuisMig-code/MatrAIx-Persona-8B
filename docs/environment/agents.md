@@ -61,7 +61,10 @@ OpenAI (`openai/gpt-4o*`), and DashScope OpenAI-compatible models
 `dashscope/deepseek-v4-pro`, …). Set `DASHSCOPE_API_KEY` (and optional
 `DASHSCOPE_API_BASE`) when using `dashscope/*` — the same `-m` value applies to
 auto survey/chat and Docker web/CUA agents. OpenRouter models include
-`openrouter/z-ai/glm-4.7` and `openrouter/anthropic/claude-haiku-4.5`. Set
+`openrouter/z-ai/glm-4.7`, `openrouter/anthropic/claude-haiku-4.5`,
+`openrouter/z-ai/glm-5.3-flash`, `openrouter/deepseek/deepseek-v4.1-flash`,
+`openrouter/anthropic/claude-haiku-5.5`, `openrouter/openai/gpt-6-luna` and
+`openrouter/google/gemini-3.8-flash`. Set
 `OPENROUTER_API_KEY` (and optional `OPENROUTER_API_BASE`) for `openrouter/*`.
 `OPENROUTER_BASE_URL` remains a compatibility alias when
 `OPENROUTER_API_BASE` is unset.
